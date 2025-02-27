@@ -20,9 +20,5 @@ namespace api.Models
 
         public List<Comment> Comments { get; set; } = new List<Comment>();
 
-        internal object ToStockDto()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
