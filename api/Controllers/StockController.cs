@@ -26,7 +26,7 @@ namespace api.Controllers
 
     if (stocks == null || !stocks.Any())
         return NotFound("No stocks found.");
-        
+
             return Ok(stocks);
         }
 
@@ -51,6 +51,27 @@ namespace api.Controllers
             _context.SaveChanges();
 
             return CreatedAtAction(nameof(GetById), new { id = stockModel.Id }, stockModel.ToStockDto());
+        }
+
+        [HttpPut]
+        [Route("{id}")]
+        public IActionResult Update([FromRoute] int id, [FromBody] UpdateStockRequestDto updateDto)
+        {
+            var stocks= _context.Stocks.FirstOrDefault(x=>x.Id==id);
+            if (stocks == null)
+            {
+                return NotFound();
+            }
+
+            stocks.Symbol = updateDto.Symbol;
+            stocks.CompanyName = updateDto.CompanyName;
+            stocks.Purchase = updateDto.Purchase;
+            stocks.LastDiv = updateDto.LastDiv;
+            stocks.Industry = updateDto.Industry;
+            stocks.MarketCap = updateDto.MarketCap;
+
+            _context.SaveChanges();
+            return Ok(stocks.ToStockDto());
         }
     }
 }
