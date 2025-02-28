@@ -156,3 +156,7 @@ D:\FINSHARK\api\bin\Debug\net9.0\api.pdb
 D:\FINSHARK\api\obj\Debug\net9.0\api.csproj.Up2Date
 D:\FINSHARK\api\obj\Debug\net9.0\api.genruntimeconfig.cache
 D:\FINSHARK\api\obj\Debug\net9.0\ref\api.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
