@@ -160,3 +160,12 @@ D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\FINSHARK\api\bin\Debug\net9.0\Newtonsoft.Json.dll
 D:\FINSHARK\api\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
