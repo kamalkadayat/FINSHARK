@@ -169,3 +169,5 @@ D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
 D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
 D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\FINSHARK\api\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
