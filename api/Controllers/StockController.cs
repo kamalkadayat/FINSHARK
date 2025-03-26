@@ -32,7 +32,7 @@ namespace api.Controllers
                 return BadRequest(ModelState);
 
             var stocks = await _stockRepo.GetAllAsync(query);
-            var stockDto= stocks.Select(s => s.ToStockDto());
+            var stockDto= stocks.Select(s => s.ToStockDto()).ToList();
 
             if (stocks == null || !stocks.Any())
                 return NotFound("No stocks found.");
